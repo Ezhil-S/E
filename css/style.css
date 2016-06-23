@@ -2,52 +2,50 @@ body{
   background: #99CCFF;
 }
 .wrap{
-  text-decoration-color:pink;
-  background-color: grey;
+  background-color: #00b38f;
 }
 h1{
     letter-spacing: 2px;
-    font-size: 50px;
-    text-align:justify;;
+    font-size: 40px;
     color: blue;
     text-shadow: 3px 2px 0 pink;
-    margin: 20px 0;
+    text-align: center;
+}
+.active{
+  background-color: #4CAF50;
 }
 nav{
-  background-color: yellow;
   float:left;
+  text-align: center;
+  font-size: 20px;
 }
-nav li,ul li {
+nav li {
   display:inline;
+  padding:20 px;
 }
 nav a:hover{
   font-size: 20px;
-  text-decoration: underline;
+  text-decoration:none;
+}
+img{
+  height: 100%;
+  width:100%;
 }
 .content{
   text-align: center;
   color: pink;
   text-shadow: 2px 3px 0 red;
-  margin-bottom: 40px;
+  margin-top: 150px;
 }
 h2{
   font-size: 40px;
 }
-.main{
-  float:left;
-}
 a{
   text-decoration: none;
 }
-footer ul{
-  list-style: none;
-  background-color: green;
+footer{
+    margin-top: 30px;
 }
-form li{
-  list-style: none;
-  color: black;
-  margin-left: 20px;
-}
-label{
-  display: inline;
+header{
+  position:fixed;
 }
